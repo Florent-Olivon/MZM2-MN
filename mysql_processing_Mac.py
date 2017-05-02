@@ -5,8 +5,8 @@
 
 mamp_ip_adress = "127.0.0.1"
 mamp_port = 8889
-user_account_name = "Plop"
-user_password = "Plop"
+user_account_name = "root"
+user_password = "EnterPasswordHere"
 
 
 database_name = "default_database"
