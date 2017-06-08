@@ -69,7 +69,7 @@ print("")
 print("Please export your prossessed data from MzMine2")
 print("")
 print("Use these parameters")
-if user_name != "root":
+if user_name == "root":
     print("JDBC connection string : jdbc:mysql://localhost/{0}?user={1}".format(database_name, user_name))
 else:
     print("JDBC connection string : jdbc:mysql://localhost/{0}?user={1}&password=[EnterYourPasswordHere]".format(database_name, user_name))
